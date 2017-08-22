@@ -58,7 +58,7 @@ Segregated witness transactions will require lower fees, will afford much greate
 
 ## Segregated witness still sounds complicated. Why not simply raise the maximum block size?  {#size-bump}
 
-There's a [single line of code][max_block_size] in Bitcoin Core that says the maximum block size is 1,000,000 bytes (1 MB). The simplest code modification would be a hard fork to update that line to say, for example, 2,000,000 bytes (2 MB).
+**There's a [single line of code][max_block_size] in Bitcoin Core that says the maximum block size is 1,000,000 bytes (1 MB). The simplest code modification would be a hard fork to update that line to say, for example, 2,000,000 bytes (2 MB).**
 
 However, hard forks are anything but simple:
 
